@@ -1,2 +1,3 @@
-# zed-jetbrains-int-icons
-Jetbrains Design icons for Zed
+# Jetbrains Int Icons Theme
+
+Jetbrains Design icons for [Zed](https://zed.dev/).

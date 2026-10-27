@@ -1,0 +1,8 @@
+id = "jetbrains-int-icons"
+name = "Jetbrains Int Icons Theme"
+version = "1.0.0"
+schema_version = 1
+authors = ["tsingmuhe"]
+description = "Jetbrains Design icons."
+repository = "https://github.com/tsingmuhe/zed-jetbrains-int-icons"
+icon_themes = ["icon_themes/dark-theme.json", "icon_themes/light-theme.json"]

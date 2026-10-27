@@ -1,0 +1,15 @@
+{
+  "name": "jetbrains-int-icons",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Jetbrains Design icons for Zed",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "build": "npx tsx src/build.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "prettier": "3.9.10",
+    "typescript": "5.9.3"
+  }
+}
