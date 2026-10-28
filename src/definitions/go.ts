@@ -4,5 +4,5 @@ export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
   iconPath: iconPath('go'),
-  fileExtensions: ['go', 'go2', 'mod', 'work']
+  fileExtensions: ['go', 'go2']
 });

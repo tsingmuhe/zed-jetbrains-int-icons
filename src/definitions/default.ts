@@ -3,5 +3,6 @@ import { IconPath, ManifestIconDefinition } from '../types';
 export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
-  iconPath: iconPath('file')
+  iconPath: iconPath('file'),
+  fileExtensions: ['mod', 'work', 'txt']
 });

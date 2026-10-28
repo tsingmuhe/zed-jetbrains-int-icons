@@ -15,7 +15,6 @@ export const createDefinition = (
     'ppt',
     'pptx',
     'rtf',
-    'txt',
     'xls',
     'xlsx'
   ]
