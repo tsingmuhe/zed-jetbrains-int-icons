@@ -3,6 +3,7 @@ import { createDefinition as createAstroDefinition } from './astro';
 import { createDefinition as createAudioDefinition } from './audio';
 import { createDefinition as createBallerinaDefinition } from './ballerina';
 import { createDefinition as createBicepDefinition } from './bicep';
+import { createDefinition as createBinaryDefinition } from './binary';
 import { createDefinition as createBunDefinition } from './bun';
 import { createDefinition as createCDefinition } from './c';
 import { createDefinition as createCairoDefinition } from './cairo';
@@ -114,6 +115,7 @@ export const getIconDefinitions = (
   audio: createAudioDefinition(iconPath),
   ballerina: createBallerinaDefinition(iconPath),
   bicep: createBicepDefinition(iconPath),
+  binary: createBinaryDefinition(iconPath),
   bun: createBunDefinition(iconPath),
   c: createCDefinition(iconPath),
   cairo: createCairoDefinition(iconPath),

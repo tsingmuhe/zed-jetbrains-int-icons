@@ -36,6 +36,11 @@
         "wv": "audio",
         "bal": "ballerina",
         "bicep": "bicep",
+        "hex": "binary",
+        "bin": "binary",
+        "exe": "binary",
+        "msi": "binary",
+        "class": "binary",
         "lockb": "bun",
         "c": "c",
         "h": "c",
@@ -353,6 +358,9 @@
         },
         "bicep": {
           "path": "./icons/file.svg"
+        },
+        "binary": {
+          "path": "./icons/binary.svg"
         },
         "bun": {
           "path": "./icons/bun.svg"
