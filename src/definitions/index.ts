@@ -97,6 +97,8 @@ import { createDefinition as createVyperDefinition } from './vyper';
 import { createDefinition as createWgslDefinition } from './wgsl';
 import { createDefinition as createXmlDefinition } from './xml';
 import { createDefinition as createYamlDefinition } from './yaml';
+import { createDefinition as createYarnDefinition } from './yarn';
+import { createDefinition as createYarnlockDefinition } from './yarnlock';
 import { createDefinition as createZigDefinition } from './zig';
 
 export const getIconDefinitions = (
@@ -200,5 +202,7 @@ export const getIconDefinitions = (
   wgsl: createWgslDefinition(iconPath),
   xml: createXmlDefinition(iconPath),
   yaml: createYamlDefinition(iconPath),
+  yarn: createYarnDefinition(iconPath),
+  yarnlock: createYarnlockDefinition(iconPath),
   zig: createZigDefinition(iconPath)
 });

@@ -321,6 +321,9 @@
         "plist": "xml",
         "yaml": "yaml",
         "yml": "yaml",
+        ".yarnrc.yml": "yarn",
+        ".yarnrc": "yarn",
+        "yarn.lock": "yarnlock",
         "zig": "zig"
       },
       "file_icons": {
@@ -617,6 +620,12 @@
         },
         "yaml": {
           "path": "./icons/yaml_dark.svg"
+        },
+        "yarn": {
+          "path": "./icons/yarn_dark.svg"
+        },
+        "yarnlock": {
+          "path": "./icons/yarnlock_dark.svg"
         },
         "zig": {
           "path": "./icons/zig_dark.svg"
