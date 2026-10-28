@@ -58,6 +58,7 @@ import { createDefinition as createJsxDefinition } from './jsx';
 import { createDefinition as createJuliaDefinition } from './julia';
 import { createDefinition as createKdlDefinition } from './kdl';
 import { createDefinition as createKotlinDefinition } from './kotlin';
+import { createDefinition as createLessDefinition } from './less';
 import { createDefinition as createLockDefinition } from './lock';
 import { createDefinition as createLogDefinition } from './log';
 import { createDefinition as createLuaDefinition } from './lua';
@@ -177,6 +178,7 @@ export const getIconDefinitions = (
   julia: createJuliaDefinition(iconPath),
   kdl: createKdlDefinition(iconPath),
   kotlin: createKotlinDefinition(iconPath),
+  less: createLessDefinition(iconPath),
   lock: createLockDefinition(iconPath),
   log: createLogDefinition(iconPath),
   lua: createLuaDefinition(iconPath),
