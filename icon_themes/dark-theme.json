@@ -20,6 +20,9 @@
         "go.work.sum": "gosum",
         "go.work": "gowork",
         "Procfile": "heroku",
+        "makefile": "makefile",
+        "Makefile": "makefile",
+        "GNUmakefile": "makefile",
         "Podfile": "ruby"
       },
       "file_suffixes": {
@@ -582,6 +585,9 @@
         },
         "luau": {
           "path": "./icons/luau_dark.svg"
+        },
+        "makefile": {
+          "path": "./icons/makefile_dark.svg"
         },
         "markdown": {
           "path": "./icons/markdown_dark.svg"

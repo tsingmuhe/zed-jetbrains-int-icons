@@ -63,6 +63,7 @@ import { createDefinition as createLockDefinition } from './lock';
 import { createDefinition as createLogDefinition } from './log';
 import { createDefinition as createLuaDefinition } from './lua';
 import { createDefinition as createLuauDefinition } from './luau';
+import { createDefinition as createMakefileDefinition } from './makefile';
 import { createDefinition as createMarkdownDefinition } from './markdown';
 import { createDefinition as createMetalDefinition } from './metal';
 import { createDefinition as createNimDefinition } from './nim';
@@ -187,6 +188,7 @@ export const getIconDefinitions = (
   log: createLogDefinition(iconPath),
   lua: createLuaDefinition(iconPath),
   luau: createLuauDefinition(iconPath),
+  makefile: createMakefileDefinition(iconPath),
   markdown: createMarkdownDefinition(iconPath),
   metal: createMetalDefinition(iconPath),
   nim: createNimDefinition(iconPath),
