@@ -109,7 +109,6 @@
         "rtf": "document",
         "xls": "document",
         "xlsx": "document",
-        "editorconfig": "editorconfig",
         "eex": "elixir",
         "ex": "elixir",
         "exs": "elixir",
@@ -265,6 +264,7 @@
         "cfg": "settings",
         "ini": "settings",
         "properties": "settings",
+        "editorconfig": "settings",
         "sol": "solidity",
         "accdb": "storage",
         "csv": "storage",
@@ -448,9 +448,6 @@
         },
         "document": {
           "path": "./icons/book_dark.svg"
-        },
-        "editorconfig": {
-          "path": "./icons/editorconfig_dark.svg"
         },
         "elixir": {
           "path": "./icons/elixir_dark.svg"

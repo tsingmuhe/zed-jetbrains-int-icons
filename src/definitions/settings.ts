@@ -4,5 +4,5 @@ export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
   iconPath: iconPath('settings'),
-  fileExtensions: ['conf', 'config', 'cfg', 'ini', 'properties']
+  fileExtensions: ['conf', 'config', 'cfg', 'ini', 'properties', 'editorconfig']
 });

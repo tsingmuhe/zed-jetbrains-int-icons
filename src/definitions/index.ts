@@ -22,7 +22,6 @@ import { createDefinition as createDenoDefinition } from './deno';
 import { createDefinition as createDiffDefinition } from './diff';
 import { createDefinition as createDockerDefinition } from './docker';
 import { createDefinition as createDocumentDefinition } from './document';
-import { createDefinition as createEditorconfigDefinition } from './editorconfig';
 import { createDefinition as createElixirDefinition } from './elixir';
 import { createDefinition as createElmDefinition } from './elm';
 import { createDefinition as createErlangDefinition } from './erlang';
@@ -142,7 +141,6 @@ export const getIconDefinitions = (
   diff: createDiffDefinition(iconPath),
   docker: createDockerDefinition(iconPath),
   document: createDocumentDefinition(iconPath),
-  editorconfig: createEditorconfigDefinition(iconPath),
   elixir: createElixirDefinition(iconPath),
   elm: createElmDefinition(iconPath),
   erlang: createErlangDefinition(iconPath),
