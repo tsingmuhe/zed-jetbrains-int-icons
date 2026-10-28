@@ -98,6 +98,7 @@ import { createDefinition as createTypescriptDefinition } from './typescript';
 import { createDefinition as createVDefinition } from './v';
 import { createDefinition as createVbprojDefinition } from './vbproj';
 import { createDefinition as createVcsDefinition } from './vcs';
+import { createDefinition as createVelocityDefinition } from './velocity';
 import { createDefinition as createVideoDefinition } from './video';
 import { createDefinition as createViteDefinition } from './vite';
 import { createDefinition as createVsSlnDefinition } from './vs_sln';
@@ -213,6 +214,7 @@ export const getIconDefinitions = (
   v: createVDefinition(iconPath),
   vbproj: createVbprojDefinition(iconPath),
   vcs: createVcsDefinition(iconPath),
+  velocity: createVelocityDefinition(iconPath),
   video: createVideoDefinition(iconPath),
   vite: createViteDefinition(iconPath),
   vs_sln: createVsSlnDefinition(iconPath),

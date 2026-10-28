@@ -338,6 +338,9 @@
         "MERGE_MSG": "vcs",
         "NOTES_EDITMSG": "vcs",
         "TAG_EDITMSG": "vcs",
+        "ft": "velocity",
+        "vm": "velocity",
+        "vsl": "velocity",
         "avi": "video",
         "m4v": "video",
         "mkv": "video",
@@ -663,6 +666,9 @@
         },
         "vcs": {
           "path": "./icons/vcs.svg"
+        },
+        "velocity": {
+          "path": "./icons/velocity.svg"
         },
         "video": {
           "path": "./icons/video.svg"
