@@ -354,7 +354,6 @@
         "v": "v",
         "vsh": "v",
         "vv": "v",
-        "vbproj": "vbproj",
         "COMMIT_EDITMSG": "vcs",
         "EDIT_DESCRIPTION": "vcs",
         "MERGE_MSG": "vcs",
@@ -372,14 +371,14 @@
         "wmv": "video",
         "vb": "visualstudio",
         "vbs": "visualstudio",
+        "sln": "visualstudio",
+        "suo": "visualstudio",
         "vite.config.js": "vite",
         "vite.config.mjs": "vite",
         "vite.config.cjs": "vite",
         "vite.config.ts": "vite",
         "vite.config.mts": "vite",
         "vite.config.cts": "vite",
-        "sln": "vs_sln",
-        "suo": "vs_suo",
         "vue": "vue",
         "vy": "vyper",
         "vyi": "vyper",
@@ -390,6 +389,7 @@
         "ods": "xls",
         "xml": "xml",
         "plist": "xml",
+        "vbproj": "xml",
         "yaml": "yaml",
         "yml": "yaml",
         ".yarnrc.yml": "yarn",
@@ -719,9 +719,6 @@
         "v": {
           "path": "./icons/v_dark.svg"
         },
-        "vbproj": {
-          "path": "./icons/file_dark.svg"
-        },
         "vcs": {
           "path": "./icons/vcs_dark.svg"
         },
@@ -736,12 +733,6 @@
         },
         "vite": {
           "path": "./icons/vite_dark.svg"
-        },
-        "vs_sln": {
-          "path": "./icons/file_dark.svg"
-        },
-        "vs_suo": {
-          "path": "./icons/file_dark.svg"
         },
         "vue": {
           "path": "./icons/vue_dark.svg"

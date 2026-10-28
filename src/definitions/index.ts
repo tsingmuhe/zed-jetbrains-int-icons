@@ -106,14 +106,11 @@ import { createDefinition as createTomlDefinition } from './toml';
 import { createDefinition as createTsxDefinition } from './tsx';
 import { createDefinition as createTypescriptDefinition } from './typescript';
 import { createDefinition as createVDefinition } from './v';
-import { createDefinition as createVbprojDefinition } from './vbproj';
 import { createDefinition as createVcsDefinition } from './vcs';
 import { createDefinition as createVelocityDefinition } from './velocity';
 import { createDefinition as createVideoDefinition } from './video';
 import { createDefinition as createVisualstudioDefinition } from './visualstudio';
 import { createDefinition as createViteDefinition } from './vite';
-import { createDefinition as createVsSlnDefinition } from './vs_sln';
-import { createDefinition as createVsSuoDefinition } from './vs_suo';
 import { createDefinition as createVueDefinition } from './vue';
 import { createDefinition as createVyperDefinition } from './vyper';
 import { createDefinition as createWgslDefinition } from './wgsl';
@@ -234,14 +231,11 @@ export const getIconDefinitions = (
   tsx: createTsxDefinition(iconPath),
   typescript: createTypescriptDefinition(iconPath),
   v: createVDefinition(iconPath),
-  vbproj: createVbprojDefinition(iconPath),
   vcs: createVcsDefinition(iconPath),
   velocity: createVelocityDefinition(iconPath),
   video: createVideoDefinition(iconPath),
   visualstudio: createVisualstudioDefinition(iconPath),
   vite: createViteDefinition(iconPath),
-  vs_sln: createVsSlnDefinition(iconPath),
-  vs_suo: createVsSuoDefinition(iconPath),
   vue: createVueDefinition(iconPath),
   vyper: createVyperDefinition(iconPath),
   wgsl: createWgslDefinition(iconPath),

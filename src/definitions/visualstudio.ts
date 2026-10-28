@@ -4,5 +4,5 @@ export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
   iconPath: iconPath('visualstudio'),
-  fileExtensions: ['vb', 'vbs']
+  fileExtensions: ['vb', 'vbs', 'sln', 'suo']
 });
