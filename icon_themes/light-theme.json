@@ -138,6 +138,9 @@
         "ttf": "font",
         "woff": "font",
         "woff2": "font",
+        "ftl": "freemarker",
+        "ftlh": "freemarker",
+        "ftlx": "freemarker",
         "fs": "fsharp",
         "fsproj": "fsproj",
         "gitattributes": "git",
@@ -450,6 +453,9 @@
         },
         "font": {
           "path": "./icons/font.svg"
+        },
+        "freemarker": {
+          "path": "./icons/freemarker.svg"
         },
         "fsharp": {
           "path": "./icons/fsharp.svg"

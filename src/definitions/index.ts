@@ -28,6 +28,7 @@ import { createDefinition as createElmDefinition } from './elm';
 import { createDefinition as createErlangDefinition } from './erlang';
 import { createDefinition as createEslintDefinition } from './eslint';
 import { createDefinition as createFontDefinition } from './font';
+import { createDefinition as createFreemarkerDefinition } from './freemarker';
 import { createDefinition as createFsharpDefinition } from './fsharp';
 import { createDefinition as createFsprojDefinition } from './fsproj';
 import { createDefinition as createGitDefinition } from './git';
@@ -142,6 +143,7 @@ export const getIconDefinitions = (
   erlang: createErlangDefinition(iconPath),
   eslint: createEslintDefinition(iconPath),
   font: createFontDefinition(iconPath),
+  freemarker: createFreemarkerDefinition(iconPath),
   fsharp: createFsharpDefinition(iconPath),
   fsproj: createFsprojDefinition(iconPath),
   git: createGitDefinition(iconPath),
