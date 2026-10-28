@@ -358,6 +358,8 @@
         "mp4": "video",
         "webm": "video",
         "wmv": "video",
+        "vb": "visualstudio",
+        "vbs": "visualstudio",
         "vite.config.js": "vite",
         "vite.config.mjs": "vite",
         "vite.config.cjs": "vite",
@@ -691,6 +693,9 @@
         },
         "video": {
           "path": "./icons/video_dark.svg"
+        },
+        "visualstudio": {
+          "path": "./icons/visualstudio_dark.svg"
         },
         "vite": {
           "path": "./icons/vite_dark.svg"

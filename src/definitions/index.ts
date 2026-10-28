@@ -103,6 +103,7 @@ import { createDefinition as createVbprojDefinition } from './vbproj';
 import { createDefinition as createVcsDefinition } from './vcs';
 import { createDefinition as createVelocityDefinition } from './velocity';
 import { createDefinition as createVideoDefinition } from './video';
+import { createDefinition as createVisualstudioDefinition } from './visualstudio';
 import { createDefinition as createViteDefinition } from './vite';
 import { createDefinition as createVsSlnDefinition } from './vs_sln';
 import { createDefinition as createVsSuoDefinition } from './vs_suo';
@@ -222,6 +223,7 @@ export const getIconDefinitions = (
   vcs: createVcsDefinition(iconPath),
   velocity: createVelocityDefinition(iconPath),
   video: createVideoDefinition(iconPath),
+  visualstudio: createVisualstudioDefinition(iconPath),
   vite: createViteDefinition(iconPath),
   vs_sln: createVsSlnDefinition(iconPath),
   vs_suo: createVsSuoDefinition(iconPath),
