@@ -1,4 +1,5 @@
 import { IconPath, ManifestIconDefinition } from '../types';
+import { createDefinition as createAppleDefinition } from './apple';
 import { createDefinition as createArchiveDefinition } from './archive';
 import { createDefinition as createAstroDefinition } from './astro';
 import { createDefinition as createAudioDefinition } from './audio';
@@ -124,6 +125,7 @@ import { createDefinition as createZigDefinition } from './zig';
 export const getIconDefinitions = (
   iconPath: IconPath
 ): Record<string, ManifestIconDefinition> => ({
+  apple: createAppleDefinition(iconPath),
   archive: createArchiveDefinition(iconPath),
   astro: createAstroDefinition(iconPath),
   audio: createAudioDefinition(iconPath),

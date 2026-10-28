@@ -26,6 +26,8 @@
         "Podfile": "ruby"
       },
       "file_suffixes": {
+        "applescript": "apple",
+        "ipa": "apple",
         "zip": "archive",
         "rar": "archive",
         "tar": "archive",
@@ -394,6 +396,9 @@
         "zig": "zig"
       },
       "file_icons": {
+        "apple": {
+          "path": "./icons/apple.svg"
+        },
         "archive": {
           "path": "./icons/archive.svg"
         },
