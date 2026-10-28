@@ -4,5 +4,5 @@ export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
   iconPath: iconPath('html'),
-  fileExtensions: ['hbs', 'plist', 'xml']
+  fileExtensions: ['hbs']
 });

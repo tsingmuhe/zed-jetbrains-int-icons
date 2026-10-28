@@ -260,8 +260,6 @@
         "swift": "swift",
         "tcl": "tcl",
         "hbs": "template",
-        "plist": "template",
-        "xml": "template",
         "bash": "terminal",
         "bash_aliases": "terminal",
         "bash_login": "terminal",
@@ -319,6 +317,8 @@
         "vy": "vyper",
         "vyi": "vyper",
         "wgsl": "wgsl",
+        "xml": "xml",
+        "plist": "xml",
         "yaml": "yaml",
         "yml": "yaml",
         "zig": "zig"
@@ -611,6 +611,9 @@
         },
         "wgsl": {
           "path": "./icons/wgsl.svg"
+        },
+        "xml": {
+          "path": "./icons/xml.svg"
         },
         "yaml": {
           "path": "./icons/yaml.svg"

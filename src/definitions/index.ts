@@ -95,6 +95,7 @@ import { createDefinition as createVsSuoDefinition } from './vs_suo';
 import { createDefinition as createVueDefinition } from './vue';
 import { createDefinition as createVyperDefinition } from './vyper';
 import { createDefinition as createWgslDefinition } from './wgsl';
+import { createDefinition as createXmlDefinition } from './xml';
 import { createDefinition as createYamlDefinition } from './yaml';
 import { createDefinition as createZigDefinition } from './zig';
 
@@ -197,6 +198,7 @@ export const getIconDefinitions = (
   vue: createVueDefinition(iconPath),
   vyper: createVyperDefinition(iconPath),
   wgsl: createWgslDefinition(iconPath),
+  xml: createXmlDefinition(iconPath),
   yaml: createYamlDefinition(iconPath),
   zig: createZigDefinition(iconPath)
 });
