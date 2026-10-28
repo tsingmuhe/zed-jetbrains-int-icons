@@ -94,6 +94,7 @@ import { createDefinition as createVDefinition } from './v';
 import { createDefinition as createVbprojDefinition } from './vbproj';
 import { createDefinition as createVcsDefinition } from './vcs';
 import { createDefinition as createVideoDefinition } from './video';
+import { createDefinition as createViteDefinition } from './vite';
 import { createDefinition as createVsSlnDefinition } from './vs_sln';
 import { createDefinition as createVsSuoDefinition } from './vs_suo';
 import { createDefinition as createVueDefinition } from './vue';
@@ -203,6 +204,7 @@ export const getIconDefinitions = (
   vbproj: createVbprojDefinition(iconPath),
   vcs: createVcsDefinition(iconPath),
   video: createVideoDefinition(iconPath),
+  vite: createViteDefinition(iconPath),
   vs_sln: createVsSlnDefinition(iconPath),
   vs_suo: createVsSuoDefinition(iconPath),
   vue: createVueDefinition(iconPath),

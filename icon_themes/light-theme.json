@@ -320,6 +320,12 @@
         "mp4": "video",
         "webm": "video",
         "wmv": "video",
+        "vite.config.js": "vite",
+        "vite.config.mjs": "vite",
+        "vite.config.cjs": "vite",
+        "vite.config.ts": "vite",
+        "vite.config.mts": "vite",
+        "vite.config.cts": "vite",
         "sln": "vs_sln",
         "suo": "vs_suo",
         "vue": "vue",
@@ -620,6 +626,9 @@
         },
         "video": {
           "path": "./icons/video.svg"
+        },
+        "vite": {
+          "path": "./icons/vite.svg"
         },
         "vs_sln": {
           "path": "./icons/file.svg"
