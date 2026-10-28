@@ -530,7 +530,7 @@
           "path": "./icons/surrealql_dark.svg"
         },
         "svelte": {
-          "path": "./icons/html_dark.svg"
+          "path": "./icons/svelte_dark.svg"
         },
         "swift": {
           "path": "./icons/swift_dark.svg"
