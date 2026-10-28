@@ -44,6 +44,7 @@ import { createDefinition as createHclDefinition } from './hcl';
 import { createDefinition as createHelmDefinition } from './helm';
 import { createDefinition as createHerokuDefinition } from './heroku';
 import { createDefinition as createHtmlDefinition } from './html';
+import { createDefinition as createIgnoreDefinition } from './ignore';
 import { createDefinition as createImageDefinition } from './image';
 import { createDefinition as createIpynbDefinition } from './ipynb';
 import { createDefinition as createJavaDefinition } from './java';
@@ -157,6 +158,7 @@ export const getIconDefinitions = (
   helm: createHelmDefinition(iconPath),
   heroku: createHerokuDefinition(iconPath),
   html: createHtmlDefinition(iconPath),
+  ignore: createIgnoreDefinition(iconPath),
   image: createImageDefinition(iconPath),
   ipynb: createIpynbDefinition(iconPath),
   java: createJavaDefinition(iconPath),

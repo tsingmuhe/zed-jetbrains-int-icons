@@ -167,6 +167,7 @@
         "tpl": "helm",
         "htm": "html",
         "html": "html",
+        "ignore": "ignore",
         "avif": "image",
         "bmp": "image",
         "gif": "image",
@@ -497,6 +498,9 @@
         },
         "html": {
           "path": "./icons/html.svg"
+        },
+        "ignore": {
+          "path": "./icons/ignore.svg"
         },
         "image": {
           "path": "./icons/image.svg"
