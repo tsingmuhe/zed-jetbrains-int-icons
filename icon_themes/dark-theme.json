@@ -58,7 +58,6 @@
         "wma": "audio",
         "wv": "audio",
         "bal": "ballerina",
-        "bicep": "bicep",
         "hex": "binary",
         "bin": "binary",
         "exe": "binary",
@@ -83,18 +82,20 @@
         "hxx": "cpp",
         "inl": "cpp",
         "ixx": "cpp",
-        "cr": "crystal",
-        "ecr": "crystal",
         "cs": "csharp",
         "css": "css",
         "pcss": "css",
         "postcss": "css",
-        "cue": "cue",
         "dart": "dart",
         "mod": "default",
         "work": "default",
         "txt": "default",
         "mdx": "default",
+        "bicep": "default",
+        "cr": "default",
+        "ecr": "default",
+        "cue": "default",
+        "sol": "default",
         "deno.json": "deno",
         "deno.jsonc": "deno",
         "deno.lock": "deno",
@@ -276,7 +277,6 @@
         "ini": "settings",
         "properties": "settings",
         "editorconfig": "settings",
-        "sol": "solidity",
         "accdb": "storage",
         "csv": "storage",
         "dat": "storage",
@@ -413,9 +413,6 @@
         "ballerina": {
           "path": "./icons/ballerina_dark.svg"
         },
-        "bicep": {
-          "path": "./icons/file_dark.svg"
-        },
         "binary": {
           "path": "./icons/binary_dark.svg"
         },
@@ -443,17 +440,11 @@
         "cpp": {
           "path": "./icons/cpp_dark.svg"
         },
-        "crystal": {
-          "path": "./icons/file_dark.svg"
-        },
         "csharp": {
           "path": "./icons/csharp_dark.svg"
         },
         "css": {
           "path": "./icons/css_dark.svg"
-        },
-        "cue": {
-          "path": "./icons/file_dark.svg"
         },
         "dart": {
           "path": "./icons/dart_dark.svg"
@@ -670,9 +661,6 @@
         },
         "settings": {
           "path": "./icons/settings_dark.svg"
-        },
-        "solidity": {
-          "path": "./icons/file_dark.svg"
         },
         "storage": {
           "path": "./icons/database_dark.svg"

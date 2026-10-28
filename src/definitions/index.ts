@@ -4,7 +4,6 @@ import { createDefinition as createArchiveDefinition } from './archive';
 import { createDefinition as createAstroDefinition } from './astro';
 import { createDefinition as createAudioDefinition } from './audio';
 import { createDefinition as createBallerinaDefinition } from './ballerina';
-import { createDefinition as createBicepDefinition } from './bicep';
 import { createDefinition as createBinaryDefinition } from './binary';
 import { createDefinition as createBunDefinition } from './bun';
 import { createDefinition as createCDefinition } from './c';
@@ -14,10 +13,8 @@ import { createDefinition as createCargolockDefinition } from './cargolock';
 import { createDefinition as createCodeDefinition } from './code';
 import { createDefinition as createCoffeescriptDefinition } from './coffeescript';
 import { createDefinition as createCppDefinition } from './cpp';
-import { createDefinition as createCrystalDefinition } from './crystal';
 import { createDefinition as createCsharpDefinition } from './csharp';
 import { createDefinition as createCssDefinition } from './css';
-import { createDefinition as createCueDefinition } from './cue';
 import { createDefinition as createDartDefinition } from './dart';
 import { createDefinition as createDefaultDefinition } from './default';
 import { createDefinition as createDenoDefinition } from './deno';
@@ -90,7 +87,6 @@ import { createDefinition as createRustDefinition } from './rust';
 import { createDefinition as createSassDefinition } from './sass';
 import { createDefinition as createScalaDefinition } from './scala';
 import { createDefinition as createSettingsDefinition } from './settings';
-import { createDefinition as createSolidityDefinition } from './solidity';
 import { createDefinition as createStorageDefinition } from './storage';
 import { createDefinition as createStylelintDefinition } from './stylelint';
 import { createDefinition as createSurrealqlDefinition } from './surrealql';
@@ -127,7 +123,6 @@ export const getIconDefinitions = (
   astro: createAstroDefinition(iconPath),
   audio: createAudioDefinition(iconPath),
   ballerina: createBallerinaDefinition(iconPath),
-  bicep: createBicepDefinition(iconPath),
   binary: createBinaryDefinition(iconPath),
   bun: createBunDefinition(iconPath),
   c: createCDefinition(iconPath),
@@ -137,10 +132,8 @@ export const getIconDefinitions = (
   code: createCodeDefinition(iconPath),
   coffeescript: createCoffeescriptDefinition(iconPath),
   cpp: createCppDefinition(iconPath),
-  crystal: createCrystalDefinition(iconPath),
   csharp: createCsharpDefinition(iconPath),
   css: createCssDefinition(iconPath),
-  cue: createCueDefinition(iconPath),
   dart: createDartDefinition(iconPath),
   default: createDefaultDefinition(iconPath),
   deno: createDenoDefinition(iconPath),
@@ -213,7 +206,6 @@ export const getIconDefinitions = (
   sass: createSassDefinition(iconPath),
   scala: createScalaDefinition(iconPath),
   settings: createSettingsDefinition(iconPath),
-  solidity: createSolidityDefinition(iconPath),
   storage: createStorageDefinition(iconPath),
   stylelint: createStylelintDefinition(iconPath),
   surrealql: createSurrealqlDefinition(iconPath),
