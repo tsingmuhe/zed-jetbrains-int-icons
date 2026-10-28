@@ -41,6 +41,7 @@ import { createDefinition as createIpynbDefinition } from './ipynb';
 import { createDefinition as createJavaDefinition } from './java';
 import { createDefinition as createJavascriptDefinition } from './javascript';
 import { createDefinition as createJsonDefinition } from './json';
+import { createDefinition as createJsxDefinition } from './jsx';
 import { createDefinition as createJuliaDefinition } from './julia';
 import { createDefinition as createKdlDefinition } from './kdl';
 import { createDefinition as createKotlinDefinition } from './kotlin';
@@ -60,7 +61,6 @@ import { createDefinition as createPrismaDefinition } from './prisma';
 import { createDefinition as createPuppetDefinition } from './puppet';
 import { createDefinition as createPythonDefinition } from './python';
 import { createDefinition as createRDefinition } from './r';
-import { createDefinition as createReactDefinition } from './react';
 import { createDefinition as createRocDefinition } from './roc';
 import { createDefinition as createRubyDefinition } from './ruby';
 import { createDefinition as createRustDefinition } from './rust';
@@ -78,6 +78,7 @@ import { createDefinition as createTemplateDefinition } from './template';
 import { createDefinition as createTerminalDefinition } from './terminal';
 import { createDefinition as createTerraformDefinition } from './terraform';
 import { createDefinition as createTomlDefinition } from './toml';
+import { createDefinition as createTsxDefinition } from './tsx';
 import { createDefinition as createTypescriptDefinition } from './typescript';
 import { createDefinition as createVDefinition } from './v';
 import { createDefinition as createVbprojDefinition } from './vbproj';
@@ -136,6 +137,7 @@ export const getIconDefinitions = (
   java: createJavaDefinition(iconPath),
   javascript: createJavascriptDefinition(iconPath),
   json: createJsonDefinition(iconPath),
+  jsx: createJsxDefinition(iconPath),
   julia: createJuliaDefinition(iconPath),
   kdl: createKdlDefinition(iconPath),
   kotlin: createKotlinDefinition(iconPath),
@@ -155,7 +157,6 @@ export const getIconDefinitions = (
   puppet: createPuppetDefinition(iconPath),
   python: createPythonDefinition(iconPath),
   r: createRDefinition(iconPath),
-  react: createReactDefinition(iconPath),
   roc: createRocDefinition(iconPath),
   ruby: createRubyDefinition(iconPath),
   rust: createRustDefinition(iconPath),
@@ -173,6 +174,7 @@ export const getIconDefinitions = (
   terminal: createTerminalDefinition(iconPath),
   terraform: createTerraformDefinition(iconPath),
   toml: createTomlDefinition(iconPath),
+  tsx: createTsxDefinition(iconPath),
   typescript: createTypescriptDefinition(iconPath),
   v: createVDefinition(iconPath),
   vbproj: createVbprojDefinition(iconPath),

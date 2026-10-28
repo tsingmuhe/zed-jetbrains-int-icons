@@ -158,6 +158,9 @@
         "mjs": "javascript",
         "json": "json",
         "jsonc": "json",
+        "cjsx": "jsx",
+        "jsx": "jsx",
+        "mjsx": "jsx",
         "jl": "julia",
         "kdl": "kdl",
         "kt": "kotlin",
@@ -195,12 +198,6 @@
         "py": "python",
         "r": "r",
         "R": "r",
-        "cjsx": "react",
-        "ctsx": "react",
-        "jsx": "react",
-        "mjsx": "react",
-        "mtsx": "react",
-        "tsx": "react",
         "roc": "roc",
         "rb": "ruby",
         "rs": "rust",
@@ -279,6 +276,9 @@
         "tf": "terraform",
         "tfvars": "terraform",
         "toml": "toml",
+        "ctsx": "tsx",
+        "mtsx": "tsx",
+        "tsx": "tsx",
         "cts": "typescript",
         "mts": "typescript",
         "ts": "typescript",
@@ -439,6 +439,9 @@
         "json": {
           "path": "./icons/code.svg"
         },
+        "jsx": {
+          "path": "./icons/jsx.svg"
+        },
         "julia": {
           "path": "./icons/julia.svg"
         },
@@ -496,9 +499,6 @@
         "r": {
           "path": "./icons/r.svg"
         },
-        "react": {
-          "path": "./icons/react.svg"
-        },
         "roc": {
           "path": "./icons/roc.svg"
         },
@@ -549,6 +549,9 @@
         },
         "toml": {
           "path": "./icons/toml.svg"
+        },
+        "tsx": {
+          "path": "./icons/tsx.svg"
         },
         "typescript": {
           "path": "./icons/typescript.svg"
