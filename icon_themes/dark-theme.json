@@ -181,6 +181,8 @@
         "nims": "nim",
         "nimble": "nim",
         "nix": "nix",
+        ".npmrc": "npm",
+        ".npmignore": "npm",
         "ml": "ocaml",
         "mli": "ocaml",
         "mlx": "ocaml",
@@ -504,6 +506,9 @@
         },
         "nix": {
           "path": "./icons/nix_dark.svg"
+        },
+        "npm": {
+          "path": "./icons/npm_dark.svg"
         },
         "ocaml": {
           "path": "./icons/ocaml_dark.svg"

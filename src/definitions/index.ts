@@ -57,6 +57,7 @@ import { createDefinition as createMarkdownDefinition } from './markdown';
 import { createDefinition as createMetalDefinition } from './metal';
 import { createDefinition as createNimDefinition } from './nim';
 import { createDefinition as createNixDefinition } from './nix';
+import { createDefinition as createNpmDefinition } from './npm';
 import { createDefinition as createOcamlDefinition } from './ocaml';
 import { createDefinition as createOdinDefinition } from './odin';
 import { createDefinition as createPhpDefinition } from './php';
@@ -164,6 +165,7 @@ export const getIconDefinitions = (
   metal: createMetalDefinition(iconPath),
   nim: createNimDefinition(iconPath),
   nix: createNixDefinition(iconPath),
+  npm: createNpmDefinition(iconPath),
   ocaml: createOcamlDefinition(iconPath),
   odin: createOdinDefinition(iconPath),
   php: createPhpDefinition(iconPath),
