@@ -137,6 +137,12 @@
         "ttf": "font",
         "woff": "font",
         "woff2": "font",
+        "f": "fortran",
+        "f77": "fortran",
+        "f90": "fortran",
+        "f95": "fortran",
+        "f03": "fortran",
+        "f08": "fortran",
         "ftl": "freemarker",
         "ftlh": "freemarker",
         "ftlx": "freemarker",
@@ -465,6 +471,9 @@
         },
         "font": {
           "path": "./icons/font_dark.svg"
+        },
+        "fortran": {
+          "path": "./icons/fortran_dark.svg"
         },
         "freemarker": {
           "path": "./icons/freemarker_dark.svg"
