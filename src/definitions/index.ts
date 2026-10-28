@@ -9,6 +9,8 @@ import { createDefinition as createBinaryDefinition } from './binary';
 import { createDefinition as createBunDefinition } from './bun';
 import { createDefinition as createCDefinition } from './c';
 import { createDefinition as createCairoDefinition } from './cairo';
+import { createDefinition as createCargoDefinition } from './cargo';
+import { createDefinition as createCargolockDefinition } from './cargolock';
 import { createDefinition as createCodeDefinition } from './code';
 import { createDefinition as createCoffeescriptDefinition } from './coffeescript';
 import { createDefinition as createCppDefinition } from './cpp';
@@ -135,6 +137,8 @@ export const getIconDefinitions = (
   bun: createBunDefinition(iconPath),
   c: createCDefinition(iconPath),
   cairo: createCairoDefinition(iconPath),
+  cargo: createCargoDefinition(iconPath),
+  cargolock: createCargolockDefinition(iconPath),
   code: createCodeDefinition(iconPath),
   coffeescript: createCoffeescriptDefinition(iconPath),
   cpp: createCppDefinition(iconPath),

@@ -12,6 +12,8 @@
       },
       "named_directory_icons": {},
       "file_stems": {
+        "Cargo.toml": "cargo",
+        "Cargo.lock": "cargolock",
         "Containerfile": "docker",
         "Dockerfile": "docker",
         ".dockerignore": "docker",
@@ -425,6 +427,12 @@
         },
         "cairo": {
           "path": "./icons/cairo.svg"
+        },
+        "cargo": {
+          "path": "./icons/cargo.svg"
+        },
+        "cargolock": {
+          "path": "./icons/cargolock.svg"
         },
         "code": {
           "path": "./icons/code.svg"
