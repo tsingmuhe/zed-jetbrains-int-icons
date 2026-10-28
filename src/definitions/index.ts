@@ -16,7 +16,6 @@ import { createDefinition as createCoffeescriptDefinition } from './coffeescript
 import { createDefinition as createCppDefinition } from './cpp';
 import { createDefinition as createCrystalDefinition } from './crystal';
 import { createDefinition as createCsharpDefinition } from './csharp';
-import { createDefinition as createCsprojDefinition } from './csproj';
 import { createDefinition as createCssDefinition } from './css';
 import { createDefinition as createCueDefinition } from './cue';
 import { createDefinition as createDartDefinition } from './dart';
@@ -33,7 +32,6 @@ import { createDefinition as createFontDefinition } from './font';
 import { createDefinition as createFortranDefinition } from './fortran';
 import { createDefinition as createFreemarkerDefinition } from './freemarker';
 import { createDefinition as createFsharpDefinition } from './fsharp';
-import { createDefinition as createFsprojDefinition } from './fsproj';
 import { createDefinition as createGitDefinition } from './git';
 import { createDefinition as createGitlabDefinition } from './gitlab';
 import { createDefinition as createGleamDefinition } from './gleam';
@@ -141,7 +139,6 @@ export const getIconDefinitions = (
   cpp: createCppDefinition(iconPath),
   crystal: createCrystalDefinition(iconPath),
   csharp: createCsharpDefinition(iconPath),
-  csproj: createCsprojDefinition(iconPath),
   css: createCssDefinition(iconPath),
   cue: createCueDefinition(iconPath),
   dart: createDartDefinition(iconPath),
@@ -158,7 +155,6 @@ export const getIconDefinitions = (
   fortran: createFortranDefinition(iconPath),
   freemarker: createFreemarkerDefinition(iconPath),
   fsharp: createFsharpDefinition(iconPath),
-  fsproj: createFsprojDefinition(iconPath),
   git: createGitDefinition(iconPath),
   gitlab: createGitlabDefinition(iconPath),
   gleam: createGleamDefinition(iconPath),

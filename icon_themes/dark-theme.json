@@ -86,7 +86,6 @@
         "cr": "crystal",
         "ecr": "crystal",
         "cs": "csharp",
-        "csproj": "csproj",
         "css": "css",
         "pcss": "css",
         "postcss": "css",
@@ -147,7 +146,6 @@
         "ftlh": "freemarker",
         "ftlx": "freemarker",
         "fs": "fsharp",
-        "fsproj": "fsproj",
         "gitattributes": "git",
         "gitignore": "git",
         "gitkeep": "git",
@@ -390,6 +388,8 @@
         "xml": "xml",
         "plist": "xml",
         "vbproj": "xml",
+        "fsproj": "xml",
+        "csproj": "xml",
         "yaml": "yaml",
         "yml": "yaml",
         ".yarnrc.yml": "yarn",
@@ -449,9 +449,6 @@
         "csharp": {
           "path": "./icons/csharp_dark.svg"
         },
-        "csproj": {
-          "path": "./icons/file_dark.svg"
-        },
         "css": {
           "path": "./icons/css_dark.svg"
         },
@@ -499,9 +496,6 @@
         },
         "fsharp": {
           "path": "./icons/fsharp_dark.svg"
-        },
-        "fsproj": {
-          "path": "./icons/file_dark.svg"
         },
         "git": {
           "path": "./icons/git_dark.svg"
