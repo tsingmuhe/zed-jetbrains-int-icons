@@ -64,7 +64,6 @@
         "c": "c",
         "h": "c",
         "cairo": "cairo",
-        "handlebars": "code",
         "metadata": "code",
         "rkt": "code",
         "scm": "code",
@@ -161,6 +160,8 @@
         "graphqls": "graphql",
         "groovy": "groovy",
         "gy": "groovy",
+        "handlebars": "handlebars",
+        "hbs": "handlebars",
         "hs": "haskell",
         "hcl": "hcl",
         "helmfile.yaml": "helm",
@@ -315,7 +316,6 @@
         "svelte": "svelte",
         "swift": "swift",
         "tcl": "tcl",
-        "hbs": "template",
         "bash": "terminal",
         "bash_aliases": "terminal",
         "bash_login": "terminal",
@@ -523,6 +523,9 @@
         "groovy": {
           "path": "./icons/groovy_dark.svg"
         },
+        "handlebars": {
+          "path": "./icons/handlebars_dark.svg"
+        },
         "haskell": {
           "path": "./icons/haskell_dark.svg"
         },
@@ -681,9 +684,6 @@
         },
         "tcl": {
           "path": "./icons/tcl_dark.svg"
-        },
-        "template": {
-          "path": "./icons/html_dark.svg"
         },
         "terminal": {
           "path": "./icons/terminal_dark.svg"

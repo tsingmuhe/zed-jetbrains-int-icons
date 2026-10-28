@@ -4,5 +4,5 @@ export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
   iconPath: iconPath('code'),
-  fileExtensions: ['handlebars', 'metadata', 'rkt', 'scm']
+  fileExtensions: ['metadata', 'rkt', 'scm']
 });

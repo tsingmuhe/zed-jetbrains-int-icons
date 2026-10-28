@@ -42,6 +42,7 @@ import { createDefinition as createGoworkDefinition } from './gowork';
 import { createDefinition as createGradleDefinition } from './gradle';
 import { createDefinition as createGraphqlDefinition } from './graphql';
 import { createDefinition as createGroovyDefinition } from './groovy';
+import { createDefinition as createHandlebarsDefinition } from './handlebars';
 import { createDefinition as createHaskellDefinition } from './haskell';
 import { createDefinition as createHclDefinition } from './hcl';
 import { createDefinition as createHelmDefinition } from './helm';
@@ -95,7 +96,6 @@ import { createDefinition as createSurrealqlDefinition } from './surrealql';
 import { createDefinition as createSvelteDefinition } from './svelte';
 import { createDefinition as createSwiftDefinition } from './swift';
 import { createDefinition as createTclDefinition } from './tcl';
-import { createDefinition as createTemplateDefinition } from './template';
 import { createDefinition as createTerminalDefinition } from './terminal';
 import { createDefinition as createTerraformDefinition } from './terraform';
 import { createDefinition as createThriftDefinition } from './thrift';
@@ -167,6 +167,7 @@ export const getIconDefinitions = (
   gradle: createGradleDefinition(iconPath),
   graphql: createGraphqlDefinition(iconPath),
   groovy: createGroovyDefinition(iconPath),
+  handlebars: createHandlebarsDefinition(iconPath),
   haskell: createHaskellDefinition(iconPath),
   hcl: createHclDefinition(iconPath),
   helm: createHelmDefinition(iconPath),
@@ -220,7 +221,6 @@ export const getIconDefinitions = (
   svelte: createSvelteDefinition(iconPath),
   swift: createSwiftDefinition(iconPath),
   tcl: createTclDefinition(iconPath),
-  template: createTemplateDefinition(iconPath),
   terminal: createTerminalDefinition(iconPath),
   terraform: createTerraformDefinition(iconPath),
   thrift: createThriftDefinition(iconPath),
