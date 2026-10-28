@@ -60,6 +60,8 @@ import { createDefinition as createNixDefinition } from './nix';
 import { createDefinition as createOcamlDefinition } from './ocaml';
 import { createDefinition as createOdinDefinition } from './odin';
 import { createDefinition as createPhpDefinition } from './php';
+import { createDefinition as createPnpmDefinition } from './pnpm';
+import { createDefinition as createPnpmlockDefinition } from './pnpmlock';
 import { createDefinition as createPrettierDefinition } from './prettier';
 import { createDefinition as createPrismaDefinition } from './prisma';
 import { createDefinition as createProtobufDefinition } from './protobuf';
@@ -165,6 +167,8 @@ export const getIconDefinitions = (
   ocaml: createOcamlDefinition(iconPath),
   odin: createOdinDefinition(iconPath),
   php: createPhpDefinition(iconPath),
+  pnpm: createPnpmDefinition(iconPath),
+  pnpmlock: createPnpmlockDefinition(iconPath),
   prettier: createPrettierDefinition(iconPath),
   prisma: createPrismaDefinition(iconPath),
   protobuf: createProtobufDefinition(iconPath),

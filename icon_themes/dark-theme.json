@@ -186,6 +186,10 @@
         "mlx": "ocaml",
         "odin": "odin",
         "php": "php",
+        "pnpm-workspace.yaml": "pnpm",
+        ".pnpmfile.mjs": "pnpm",
+        ".pnpmfile.cjs": "pnpm",
+        "pnpm-lock.yaml": "pnpmlock",
         "prettier.config.cjs": "prettier",
         "prettier.config.js": "prettier",
         "prettier.config.mjs": "prettier",
@@ -509,6 +513,12 @@
         },
         "php": {
           "path": "./icons/php_dark.svg"
+        },
+        "pnpm": {
+          "path": "./icons/pnpm_dark.svg"
+        },
+        "pnpmlock": {
+          "path": "./icons/pnpmlock_dark.svg"
         },
         "prettier": {
           "path": "./icons/prettier_dark.svg"
