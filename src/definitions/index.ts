@@ -20,8 +20,8 @@ import { createDefinition as createDartDefinition } from './dart';
 import { createDefinition as createDefaultDefinition } from './default';
 import { createDefinition as createDenoDefinition } from './deno';
 import { createDefinition as createDiffDefinition } from './diff';
+import { createDefinition as createDocDefinition } from './doc';
 import { createDefinition as createDockerDefinition } from './docker';
-import { createDefinition as createDocumentDefinition } from './document';
 import { createDefinition as createElixirDefinition } from './elixir';
 import { createDefinition as createElmDefinition } from './elm';
 import { createDefinition as createErlangDefinition } from './erlang';
@@ -74,6 +74,7 @@ import { createDefinition as createPdfDefinition } from './pdf';
 import { createDefinition as createPhpDefinition } from './php';
 import { createDefinition as createPnpmDefinition } from './pnpm';
 import { createDefinition as createPnpmlockDefinition } from './pnpmlock';
+import { createDefinition as createPPTDefinition } from './ppt';
 import { createDefinition as createPrettierDefinition } from './prettier';
 import { createDefinition as createPrismaDefinition } from './prisma';
 import { createDefinition as createProtobufDefinition } from './protobuf';
@@ -112,6 +113,7 @@ import { createDefinition as createVsSuoDefinition } from './vs_suo';
 import { createDefinition as createVueDefinition } from './vue';
 import { createDefinition as createVyperDefinition } from './vyper';
 import { createDefinition as createWgslDefinition } from './wgsl';
+import { createDefinition as createXlsDefinition } from './xls';
 import { createDefinition as createXmlDefinition } from './xml';
 import { createDefinition as createYamlDefinition } from './yaml';
 import { createDefinition as createYarnDefinition } from './yarn';
@@ -142,8 +144,8 @@ export const getIconDefinitions = (
   default: createDefaultDefinition(iconPath),
   deno: createDenoDefinition(iconPath),
   diff: createDiffDefinition(iconPath),
+  doc: createDocDefinition(iconPath),
   docker: createDockerDefinition(iconPath),
-  document: createDocumentDefinition(iconPath),
   elixir: createElixirDefinition(iconPath),
   elm: createElmDefinition(iconPath),
   erlang: createErlangDefinition(iconPath),
@@ -196,6 +198,7 @@ export const getIconDefinitions = (
   php: createPhpDefinition(iconPath),
   pnpm: createPnpmDefinition(iconPath),
   pnpmlock: createPnpmlockDefinition(iconPath),
+  ppt: createPPTDefinition(iconPath),
   prettier: createPrettierDefinition(iconPath),
   prisma: createPrismaDefinition(iconPath),
   protobuf: createProtobufDefinition(iconPath),
@@ -234,6 +237,7 @@ export const getIconDefinitions = (
   vue: createVueDefinition(iconPath),
   vyper: createVyperDefinition(iconPath),
   wgsl: createWgslDefinition(iconPath),
+  xls: createXlsDefinition(iconPath),
   xml: createXmlDefinition(iconPath),
   yaml: createYamlDefinition(iconPath),
   yarn: createYarnDefinition(iconPath),

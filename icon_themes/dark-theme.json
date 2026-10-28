@@ -89,25 +89,20 @@
         "mod": "default",
         "work": "default",
         "txt": "default",
+        "mdx": "default",
         "deno.json": "deno",
         "deno.jsonc": "deno",
         "deno.lock": "deno",
         "diff": "diff",
+        "doc": "doc",
+        "docx": "doc",
+        "docm": "doc",
+        "odt": "doc",
+        "rtf": "doc",
         "docker-compose.yml": "docker",
         "docker-compose.yaml": "docker",
         "compose.yml": "docker",
         "compose.yaml": "docker",
-        "doc": "document",
-        "docx": "document",
-        "mdx": "document",
-        "odp": "document",
-        "ods": "document",
-        "odt": "document",
-        "ppt": "document",
-        "pptx": "document",
-        "rtf": "document",
-        "xls": "document",
-        "xlsx": "document",
         "eex": "elixir",
         "ex": "elixir",
         "exs": "elixir",
@@ -236,6 +231,10 @@
         ".pnpmfile.mjs": "pnpm",
         ".pnpmfile.cjs": "pnpm",
         "pnpm-lock.yaml": "pnpmlock",
+        "ppt": "ppt",
+        "pptx": "ppt",
+        "pptm": "ppt",
+        "odp": "ppt",
         "prettier.config.cjs": "prettier",
         "prettier.config.js": "prettier",
         "prettier.config.mjs": "prettier",
@@ -378,6 +377,10 @@
         "vy": "vyper",
         "vyi": "vyper",
         "wgsl": "wgsl",
+        "xls": "xls",
+        "xlsx": "xls",
+        "xlsm": "xls",
+        "ods": "xls",
         "xml": "xml",
         "plist": "xml",
         "yaml": "yaml",
@@ -451,11 +454,11 @@
         "diff": {
           "path": "./icons/diff_dark.svg"
         },
+        "doc": {
+          "path": "./icons/doc_dark.svg"
+        },
         "docker": {
           "path": "./icons/docker_dark.svg"
-        },
-        "document": {
-          "path": "./icons/book_dark.svg"
         },
         "elixir": {
           "path": "./icons/elixir_dark.svg"
@@ -613,6 +616,9 @@
         "pnpmlock": {
           "path": "./icons/pnpmlock_dark.svg"
         },
+        "ppt": {
+          "path": "./icons/ppt_dark.svg"
+        },
         "prettier": {
           "path": "./icons/prettier_dark.svg"
         },
@@ -726,6 +732,9 @@
         },
         "wgsl": {
           "path": "./icons/wgsl_dark.svg"
+        },
+        "xls": {
+          "path": "./icons/xls_dark.svg"
         },
         "xml": {
           "path": "./icons/xml_dark.svg"
