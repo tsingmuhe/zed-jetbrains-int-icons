@@ -285,6 +285,7 @@
         "zshrc": "terminal",
         "tf": "terraform",
         "tfvars": "terraform",
+        "thrift": "thrift",
         "toml": "toml",
         "ctsx": "tsx",
         "mtsx": "tsx",
@@ -571,6 +572,9 @@
         },
         "terraform": {
           "path": "./icons/terraform.svg"
+        },
+        "thrift": {
+          "path": "./icons/thrift.svg"
         },
         "toml": {
           "path": "./icons/toml.svg"

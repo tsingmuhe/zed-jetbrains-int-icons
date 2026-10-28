@@ -82,6 +82,7 @@ import { createDefinition as createTclDefinition } from './tcl';
 import { createDefinition as createTemplateDefinition } from './template';
 import { createDefinition as createTerminalDefinition } from './terminal';
 import { createDefinition as createTerraformDefinition } from './terraform';
+import { createDefinition as createThriftDefinition } from './thrift';
 import { createDefinition as createTomlDefinition } from './toml';
 import { createDefinition as createTsxDefinition } from './tsx';
 import { createDefinition as createTypescriptDefinition } from './typescript';
@@ -183,6 +184,7 @@ export const getIconDefinitions = (
   template: createTemplateDefinition(iconPath),
   terminal: createTerminalDefinition(iconPath),
   terraform: createTerraformDefinition(iconPath),
+  thrift: createThriftDefinition(iconPath),
   toml: createTomlDefinition(iconPath),
   tsx: createTsxDefinition(iconPath),
   typescript: createTypescriptDefinition(iconPath),
