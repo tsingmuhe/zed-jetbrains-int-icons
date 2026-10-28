@@ -30,6 +30,10 @@ import { createDefinition as createFsprojDefinition } from './fsproj';
 import { createDefinition as createGitlabDefinition } from './gitlab';
 import { createDefinition as createGleamDefinition } from './gleam';
 import { createDefinition as createGoDefinition } from './go';
+import { createDefinition as createGomodDefinition } from './gomod';
+import { createDefinition as createGosumDefinition } from './gosum';
+import { createDefinition as createGotemplateDefinition } from './gotemplate';
+import { createDefinition as createGoworkDefinition } from './gowork';
 import { createDefinition as createGraphqlDefinition } from './graphql';
 import { createDefinition as createHaskellDefinition } from './haskell';
 import { createDefinition as createHclDefinition } from './hcl';
@@ -126,6 +130,10 @@ export const getIconDefinitions = (
   gitlab: createGitlabDefinition(iconPath),
   gleam: createGleamDefinition(iconPath),
   go: createGoDefinition(iconPath),
+  gomod: createGomodDefinition(iconPath),
+  gosum: createGosumDefinition(iconPath),
+  gotemplate: createGotemplateDefinition(iconPath),
+  gowork: createGoworkDefinition(iconPath),
   graphql: createGraphqlDefinition(iconPath),
   haskell: createHaskellDefinition(iconPath),
   hcl: createHclDefinition(iconPath),

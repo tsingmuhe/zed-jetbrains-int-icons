@@ -15,6 +15,10 @@
         "Containerfile": "docker",
         "Dockerfile": "docker",
         ".dockerignore": "docker",
+        "go.mod": "gomod",
+        "go.sum": "gosum",
+        "go.work.sum": "gosum",
+        "go.work": "gowork",
         "Procfile": "heroku",
         "Podfile": "ruby"
       },
@@ -114,8 +118,10 @@
         "gitlab-ci.yaml": "gitlab",
         "gleam": "gleam",
         "go": "go",
+        "go2": "go",
         "mod": "go",
         "work": "go",
+        "gohtml": "gotemplate",
         "gql": "graphql",
         "graphql": "graphql",
         "graphqls": "graphql",
@@ -405,6 +411,18 @@
         },
         "go": {
           "path": "./icons/go.svg"
+        },
+        "gomod": {
+          "path": "./icons/gomod.svg"
+        },
+        "gosum": {
+          "path": "./icons/gosum.svg"
+        },
+        "gotemplate": {
+          "path": "./icons/gotemplate.svg"
+        },
+        "gowork": {
+          "path": "./icons/gowork.svg"
         },
         "graphql": {
           "path": "./icons/graphql.svg"
