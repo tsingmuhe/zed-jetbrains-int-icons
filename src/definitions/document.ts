@@ -11,7 +11,6 @@ export const createDefinition = (
     'odp',
     'ods',
     'odt',
-    'pdf',
     'ppt',
     'pptx',
     'rtf',

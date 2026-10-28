@@ -70,6 +70,7 @@ import { createDefinition as createNixDefinition } from './nix';
 import { createDefinition as createNpmDefinition } from './npm';
 import { createDefinition as createOcamlDefinition } from './ocaml';
 import { createDefinition as createOdinDefinition } from './odin';
+import { createDefinition as createPdfDefinition } from './pdf';
 import { createDefinition as createPhpDefinition } from './php';
 import { createDefinition as createPnpmDefinition } from './pnpm';
 import { createDefinition as createPnpmlockDefinition } from './pnpmlock';
@@ -191,6 +192,7 @@ export const getIconDefinitions = (
   npm: createNpmDefinition(iconPath),
   ocaml: createOcamlDefinition(iconPath),
   odin: createOdinDefinition(iconPath),
+  pdf: createPdfDefinition(iconPath),
   php: createPhpDefinition(iconPath),
   pnpm: createPnpmDefinition(iconPath),
   pnpmlock: createPnpmlockDefinition(iconPath),

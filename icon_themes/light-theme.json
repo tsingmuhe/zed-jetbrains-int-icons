@@ -103,7 +103,6 @@
         "odp": "document",
         "ods": "document",
         "odt": "document",
-        "pdf": "document",
         "ppt": "document",
         "pptx": "document",
         "rtf": "document",
@@ -231,6 +230,7 @@
         "mli": "ocaml",
         "mlx": "ocaml",
         "odin": "odin",
+        "pdf": "pdf",
         "php": "php",
         "pnpm-workspace.yaml": "pnpm",
         ".pnpmfile.mjs": "pnpm",
@@ -600,6 +600,9 @@
         },
         "odin": {
           "path": "./icons/odin.svg"
+        },
+        "pdf": {
+          "path": "./icons/pdf.svg"
         },
         "php": {
           "path": "./icons/php.svg"
