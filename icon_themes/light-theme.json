@@ -68,6 +68,9 @@
         "mod": "default",
         "work": "default",
         "txt": "default",
+        "deno.json": "deno",
+        "deno.jsonc": "deno",
+        "deno.lock": "deno",
         "diff": "diff",
         "docker-compose.yml": "docker",
         "docker-compose.yaml": "docker",
@@ -383,6 +386,9 @@
         },
         "default": {
           "path": "./icons/file.svg"
+        },
+        "deno": {
+          "path": "./icons/deno.svg"
         },
         "diff": {
           "path": "./icons/diff.svg"

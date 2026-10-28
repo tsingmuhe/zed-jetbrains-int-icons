@@ -16,6 +16,7 @@ import { createDefinition as createCssDefinition } from './css';
 import { createDefinition as createCueDefinition } from './cue';
 import { createDefinition as createDartDefinition } from './dart';
 import { createDefinition as createDefaultDefinition } from './default';
+import { createDefinition as createDenoDefinition } from './deno';
 import { createDefinition as createDiffDefinition } from './diff';
 import { createDefinition as createDockerDefinition } from './docker';
 import { createDefinition as createDocumentDefinition } from './document';
@@ -124,6 +125,7 @@ export const getIconDefinitions = (
   cue: createCueDefinition(iconPath),
   dart: createDartDefinition(iconPath),
   default: createDefaultDefinition(iconPath),
+  deno: createDenoDefinition(iconPath),
   diff: createDiffDefinition(iconPath),
   docker: createDockerDefinition(iconPath),
   document: createDocumentDefinition(iconPath),
