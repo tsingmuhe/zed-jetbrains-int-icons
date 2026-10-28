@@ -40,6 +40,7 @@ import { createDefinition as createGosumDefinition } from './gosum';
 import { createDefinition as createGotemplateDefinition } from './gotemplate';
 import { createDefinition as createGoworkDefinition } from './gowork';
 import { createDefinition as createGraphqlDefinition } from './graphql';
+import { createDefinition as createGroovyDefinition } from './groovy';
 import { createDefinition as createHaskellDefinition } from './haskell';
 import { createDefinition as createHclDefinition } from './hcl';
 import { createDefinition as createHelmDefinition } from './helm';
@@ -156,6 +157,7 @@ export const getIconDefinitions = (
   gotemplate: createGotemplateDefinition(iconPath),
   gowork: createGoworkDefinition(iconPath),
   graphql: createGraphqlDefinition(iconPath),
+  groovy: createGroovyDefinition(iconPath),
   haskell: createHaskellDefinition(iconPath),
   hcl: createHclDefinition(iconPath),
   helm: createHelmDefinition(iconPath),

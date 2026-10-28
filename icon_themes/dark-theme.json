@@ -156,6 +156,8 @@
         "gql": "graphql",
         "graphql": "graphql",
         "graphqls": "graphql",
+        "groovy": "groovy",
+        "gy": "groovy",
         "hs": "haskell",
         "hcl": "hcl",
         "helmfile.yaml": "helm",
@@ -492,6 +494,9 @@
         },
         "graphql": {
           "path": "./icons/graphql_dark.svg"
+        },
+        "groovy": {
+          "path": "./icons/groovy_dark.svg"
         },
         "haskell": {
           "path": "./icons/haskell_dark.svg"
