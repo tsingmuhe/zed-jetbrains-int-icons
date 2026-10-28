@@ -199,6 +199,9 @@
         "mjs": "javascript",
         "json": "json",
         "jsonc": "json",
+        "jsp": "jsp",
+        "jsf": "jsp",
+        "jspf": "jsp",
         "cjsx": "jsx",
         "jsx": "jsx",
         "mjsx": "jsx",
@@ -534,6 +537,9 @@
         },
         "json": {
           "path": "./icons/code.svg"
+        },
+        "jsp": {
+          "path": "./icons/jsp.svg"
         },
         "jsx": {
           "path": "./icons/jsx.svg"

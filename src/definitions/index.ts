@@ -53,6 +53,7 @@ import { createDefinition as createIpynbDefinition } from './ipynb';
 import { createDefinition as createJavaDefinition } from './java';
 import { createDefinition as createJavascriptDefinition } from './javascript';
 import { createDefinition as createJsonDefinition } from './json';
+import { createDefinition as createJspDefinition } from './jsp';
 import { createDefinition as createJsxDefinition } from './jsx';
 import { createDefinition as createJuliaDefinition } from './julia';
 import { createDefinition as createKdlDefinition } from './kdl';
@@ -171,6 +172,7 @@ export const getIconDefinitions = (
   java: createJavaDefinition(iconPath),
   javascript: createJavascriptDefinition(iconPath),
   json: createJsonDefinition(iconPath),
+  jsp: createJspDefinition(iconPath),
   jsx: createJsxDefinition(iconPath),
   julia: createJuliaDefinition(iconPath),
   kdl: createKdlDefinition(iconPath),
