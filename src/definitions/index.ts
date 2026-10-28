@@ -39,6 +39,7 @@ import { createDefinition as createGomodDefinition } from './gomod';
 import { createDefinition as createGosumDefinition } from './gosum';
 import { createDefinition as createGotemplateDefinition } from './gotemplate';
 import { createDefinition as createGoworkDefinition } from './gowork';
+import { createDefinition as createGradleDefinition } from './gradle';
 import { createDefinition as createGraphqlDefinition } from './graphql';
 import { createDefinition as createGroovyDefinition } from './groovy';
 import { createDefinition as createHaskellDefinition } from './haskell';
@@ -156,6 +157,7 @@ export const getIconDefinitions = (
   gosum: createGosumDefinition(iconPath),
   gotemplate: createGotemplateDefinition(iconPath),
   gowork: createGoworkDefinition(iconPath),
+  gradle: createGradleDefinition(iconPath),
   graphql: createGraphqlDefinition(iconPath),
   groovy: createGroovyDefinition(iconPath),
   haskell: createHaskellDefinition(iconPath),

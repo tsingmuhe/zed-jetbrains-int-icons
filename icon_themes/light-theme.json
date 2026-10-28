@@ -153,6 +153,7 @@
         "go": "go",
         "go2": "go",
         "gohtml": "gotemplate",
+        "gradle": "gradle",
         "gql": "graphql",
         "graphql": "graphql",
         "graphqls": "graphql",
@@ -491,6 +492,9 @@
         },
         "gowork": {
           "path": "./icons/gowork.svg"
+        },
+        "gradle": {
+          "path": "./icons/gradle.svg"
         },
         "graphql": {
           "path": "./icons/graphql.svg"
