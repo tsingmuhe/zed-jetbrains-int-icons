@@ -65,7 +65,7 @@
         "class": "binary",
         "lockb": "bun",
         "c": "c",
-        "h": "c",
+        "h": "h",
         "cairo": "cairo",
         "metadata": "code",
         "rkt": "code",
@@ -520,6 +520,9 @@
         },
         "groovy": {
           "path": "./icons/groovy_dark.svg"
+        },
+        "h": {
+          "path": "./icons/h_dark.svg"
         },
         "handlebars": {
           "path": "./icons/handlebars_dark.svg"
