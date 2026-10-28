@@ -3,7 +3,7 @@ import { IconPath, ManifestIconDefinition } from '../types';
 export const createDefinition = (
   iconPath: IconPath
 ): ManifestIconDefinition => ({
-  iconPath: iconPath('javascript'),
+  iconPath: iconPath('stylelint'),
   fileExtensions: [
     'stylelint.config.cjs',
     'stylelint.config.js',

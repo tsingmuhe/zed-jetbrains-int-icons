@@ -668,7 +668,7 @@
           "path": "./icons/database.svg"
         },
         "stylelint": {
-          "path": "./icons/javascript.svg"
+          "path": "./icons/stylelint.svg"
         },
         "surrealql": {
           "path": "./icons/surrealql.svg"
