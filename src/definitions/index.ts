@@ -62,6 +62,7 @@ import { createDefinition as createOdinDefinition } from './odin';
 import { createDefinition as createPhpDefinition } from './php';
 import { createDefinition as createPrettierDefinition } from './prettier';
 import { createDefinition as createPrismaDefinition } from './prisma';
+import { createDefinition as createProtobufDefinition } from './protobuf';
 import { createDefinition as createPuppetDefinition } from './puppet';
 import { createDefinition as createPythonDefinition } from './python';
 import { createDefinition as createRDefinition } from './r';
@@ -162,6 +163,7 @@ export const getIconDefinitions = (
   php: createPhpDefinition(iconPath),
   prettier: createPrettierDefinition(iconPath),
   prisma: createPrismaDefinition(iconPath),
+  protobuf: createProtobufDefinition(iconPath),
   puppet: createPuppetDefinition(iconPath),
   python: createPythonDefinition(iconPath),
   r: createRDefinition(iconPath),

@@ -200,6 +200,10 @@
         "prettierrc.yaml": "prettier",
         "prettierrc.yml": "prettier",
         "prisma": "prisma",
+        "proto": "protobuf",
+        "pb": "protobuf",
+        "textproto": "protobuf",
+        "txtpb": "protobuf",
         "pp": "puppet",
         "py": "python",
         "r": "r",
@@ -507,6 +511,9 @@
         },
         "prisma": {
           "path": "./icons/prisma.svg"
+        },
+        "protobuf": {
+          "path": "./icons/protobuf.svg"
         },
         "puppet": {
           "path": "./icons/puppet.svg"
