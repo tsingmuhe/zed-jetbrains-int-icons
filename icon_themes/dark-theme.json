@@ -23,6 +23,22 @@
         "Podfile": "ruby"
       },
       "file_suffixes": {
+        "zip": "archive",
+        "rar": "archive",
+        "tar": "archive",
+        "gz": "archive",
+        "bz2": "archive",
+        "xz": "archive",
+        "iso": "archive",
+        "dmg": "archive",
+        "jar": "archive",
+        "war": "archive",
+        "egg": "archive",
+        "apk": "archive",
+        "7z": "archive",
+        "rpm": "archive",
+        "deb": "archive",
+        "gzip": "archive",
         "astro": "astro",
         "aac": "audio",
         "flac": "audio",
@@ -347,6 +363,9 @@
         "zig": "zig"
       },
       "file_icons": {
+        "archive": {
+          "path": "./icons/archive_dark.svg"
+        },
         "astro": {
           "path": "./icons/astro_dark.svg"
         },
