@@ -119,6 +119,10 @@
         "woff2": "font",
         "fs": "fsharp",
         "fsproj": "fsproj",
+        "gitattributes": "git",
+        "gitignore": "git",
+        "gitkeep": "git",
+        "gitmodules": "git",
         "gitlab-ci.yml": "gitlab",
         "gitlab-ci.yaml": "gitlab",
         "gleam": "gleam",
@@ -309,10 +313,6 @@
         "MERGE_MSG": "vcs",
         "NOTES_EDITMSG": "vcs",
         "TAG_EDITMSG": "vcs",
-        "gitattributes": "vcs",
-        "gitignore": "vcs",
-        "gitkeep": "vcs",
-        "gitmodules": "vcs",
         "avi": "video",
         "m4v": "video",
         "mkv": "video",
@@ -428,6 +428,9 @@
         },
         "fsproj": {
           "path": "./icons/file.svg"
+        },
+        "git": {
+          "path": "./icons/git.svg"
         },
         "gitlab": {
           "path": "./icons/gitlab.svg"
@@ -622,7 +625,7 @@
           "path": "./icons/file.svg"
         },
         "vcs": {
-          "path": "./icons/git.svg"
+          "path": "./icons/vcs.svg"
         },
         "video": {
           "path": "./icons/video.svg"

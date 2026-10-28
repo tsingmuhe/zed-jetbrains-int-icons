@@ -28,6 +28,7 @@ import { createDefinition as createEslintDefinition } from './eslint';
 import { createDefinition as createFontDefinition } from './font';
 import { createDefinition as createFsharpDefinition } from './fsharp';
 import { createDefinition as createFsprojDefinition } from './fsproj';
+import { createDefinition as createGitDefinition } from './git';
 import { createDefinition as createGitlabDefinition } from './gitlab';
 import { createDefinition as createGleamDefinition } from './gleam';
 import { createDefinition as createGoDefinition } from './go';
@@ -138,6 +139,7 @@ export const getIconDefinitions = (
   font: createFontDefinition(iconPath),
   fsharp: createFsharpDefinition(iconPath),
   fsproj: createFsprojDefinition(iconPath),
+  git: createGitDefinition(iconPath),
   gitlab: createGitlabDefinition(iconPath),
   gleam: createGleamDefinition(iconPath),
   go: createGoDefinition(iconPath),
