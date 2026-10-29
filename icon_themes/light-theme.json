@@ -394,6 +394,7 @@
         "vbproj": "xml",
         "fsproj": "xml",
         "csproj": "xml",
+        "wsdl": "xml",
         "yaml": "yaml",
         "yml": "yaml",
         ".yarnrc.yml": "yarn",
