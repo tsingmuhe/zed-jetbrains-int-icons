@@ -165,6 +165,7 @@
         "graphqls": "graphql",
         "groovy": "groovy",
         "gy": "groovy",
+        "haml": "haml",
         "handlebars": "handlebars",
         "hbs": "handlebars",
         "hs": "haskell",
@@ -534,6 +535,9 @@
         },
         "h": {
           "path": "./icons/h_dark.svg"
+        },
+        "haml": {
+          "path": "./icons/haml_dark.svg"
         },
         "handlebars": {
           "path": "./icons/handlebars_dark.svg"

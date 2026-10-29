@@ -43,6 +43,7 @@ import { createDefinition as createGradleDefinition } from './gradle';
 import { createDefinition as createGraphqlDefinition } from './graphql';
 import { createDefinition as createGroovyDefinition } from './groovy';
 import { createDefinition as createHDefinition } from './h';
+import { createDefinition as createHamlDefinition } from './haml';
 import { createDefinition as createHandlebarsDefinition } from './handlebars';
 import { createDefinition as createHaskellDefinition } from './haskell';
 import { createDefinition as createHclDefinition } from './hcl';
@@ -167,6 +168,7 @@ export const getIconDefinitions = (
   graphql: createGraphqlDefinition(iconPath),
   groovy: createGroovyDefinition(iconPath),
   h: createHDefinition(iconPath),
+  haml: createHamlDefinition(iconPath),
   handlebars: createHandlebarsDefinition(iconPath),
   haskell: createHaskellDefinition(iconPath),
   hcl: createHclDefinition(iconPath),
