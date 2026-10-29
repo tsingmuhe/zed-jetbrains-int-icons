@@ -69,6 +69,7 @@ import { createDefinition as createLuaDefinition } from './lua';
 import { createDefinition as createLuauDefinition } from './luau';
 import { createDefinition as createMakefileDefinition } from './makefile';
 import { createDefinition as createMarkdownDefinition } from './markdown';
+import { createDefinition as createMavenDefinition } from './maven';
 import { createDefinition as createMetalDefinition } from './metal';
 import { createDefinition as createNimDefinition } from './nim';
 import { createDefinition as createNixDefinition } from './nix';
@@ -194,6 +195,7 @@ export const getIconDefinitions = (
   luau: createLuauDefinition(iconPath),
   makefile: createMakefileDefinition(iconPath),
   markdown: createMarkdownDefinition(iconPath),
+  maven: createMavenDefinition(iconPath),
   metal: createMetalDefinition(iconPath),
   nim: createNimDefinition(iconPath),
   nix: createNixDefinition(iconPath),

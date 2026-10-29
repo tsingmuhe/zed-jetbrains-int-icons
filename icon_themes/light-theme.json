@@ -25,6 +25,7 @@
         "makefile": "makefile",
         "Makefile": "makefile",
         "GNUmakefile": "makefile",
+        "maven.config": "maven",
         "Podfile": "ruby"
       },
       "file_suffixes": {
@@ -613,6 +614,9 @@
         },
         "markdown": {
           "path": "./icons/markdown.svg"
+        },
+        "maven": {
+          "path": "./icons/maven.svg"
         },
         "metal": {
           "path": "./icons/metal.svg"
