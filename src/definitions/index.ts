@@ -16,6 +16,7 @@ import { createDefinition as createCoffeescriptDefinition } from './coffeescript
 import { createDefinition as createCppDefinition } from './cpp';
 import { createDefinition as createCsharpDefinition } from './csharp';
 import { createDefinition as createCssDefinition } from './css';
+import { createDefinition as createCudaDefinition } from './cuda';
 import { createDefinition as createDartDefinition } from './dart';
 import { createDefinition as createDefaultDefinition } from './default';
 import { createDefinition as createDenoDefinition } from './deno';
@@ -142,6 +143,7 @@ export const getIconDefinitions = (
   cpp: createCppDefinition(iconPath),
   csharp: createCsharpDefinition(iconPath),
   css: createCssDefinition(iconPath),
+  cuda: createCudaDefinition(iconPath),
   dart: createDartDefinition(iconPath),
   default: createDefaultDefinition(iconPath),
   deno: createDenoDefinition(iconPath),

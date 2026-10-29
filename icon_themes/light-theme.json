@@ -88,6 +88,8 @@
         "css": "css",
         "pcss": "css",
         "postcss": "css",
+        "cu": "cuda",
+        "cuh": "cuda",
         "dart": "dart",
         "mod": "default",
         "work": "default",
@@ -455,6 +457,9 @@
         },
         "css": {
           "path": "./icons/css.svg"
+        },
+        "cuda": {
+          "path": "./icons/cuda.svg"
         },
         "dart": {
           "path": "./icons/dart.svg"
