@@ -100,6 +100,7 @@
         "deno.json": "deno",
         "deno.jsonc": "deno",
         "deno.lock": "deno",
+        "uml": "diagram",
         "diff": "diff",
         "doc": "doc",
         "docx": "doc",
@@ -458,6 +459,9 @@
         },
         "deno": {
           "path": "./icons/deno_dark.svg"
+        },
+        "diagram": {
+          "path": "./icons/diagram_dark.svg"
         },
         "diff": {
           "path": "./icons/diff_dark.svg"
