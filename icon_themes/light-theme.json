@@ -387,6 +387,7 @@
         "xlsx": "xls",
         "xlsm": "xls",
         "ods": "xls",
+        "xsd": "xsd",
         "xml": "xml",
         "plist": "xml",
         "vbproj": "xml",
@@ -738,6 +739,9 @@
         },
         "xls": {
           "path": "./icons/xls.svg"
+        },
+        "xsd": {
+          "path": "./icons/xsd.svg"
         },
         "xml": {
           "path": "./icons/xml.svg"

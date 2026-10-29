@@ -113,6 +113,7 @@ import { createDefinition as createVyperDefinition } from './vyper';
 import { createDefinition as createWgslDefinition } from './wgsl';
 import { createDefinition as createXlsDefinition } from './xls';
 import { createDefinition as createXmlDefinition } from './xml';
+import { createDefinition as createXsdDefinition } from './xsd';
 import { createDefinition as createYamlDefinition } from './yaml';
 import { createDefinition as createYarnDefinition } from './yarn';
 import { createDefinition as createYarnlockDefinition } from './yarnlock';
@@ -234,6 +235,7 @@ export const getIconDefinitions = (
   vyper: createVyperDefinition(iconPath),
   wgsl: createWgslDefinition(iconPath),
   xls: createXlsDefinition(iconPath),
+  xsd: createXsdDefinition(iconPath),
   xml: createXmlDefinition(iconPath),
   yaml: createYamlDefinition(iconPath),
   yarn: createYarnDefinition(iconPath),
