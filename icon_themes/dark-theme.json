@@ -205,6 +205,7 @@
         "cjs": "javascript",
         "js": "javascript",
         "mjs": "javascript",
+        "jfr": "jfr",
         "json": "json",
         "jsonc": "json",
         "jsp": "jsp",
@@ -565,6 +566,9 @@
         },
         "javascript": {
           "path": "./icons/javascript_dark.svg"
+        },
+        "jfr": {
+          "path": "./icons/jfr_dark.svg"
         },
         "json": {
           "path": "./icons/code_dark.svg"

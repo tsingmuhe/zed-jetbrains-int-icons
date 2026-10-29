@@ -54,6 +54,7 @@ import { createDefinition as createImageDefinition } from './image';
 import { createDefinition as createIpynbDefinition } from './ipynb';
 import { createDefinition as createJavaDefinition } from './java';
 import { createDefinition as createJavascriptDefinition } from './javascript';
+import { createDefinition as createJfrDefinition } from './jfr';
 import { createDefinition as createJsonDefinition } from './json';
 import { createDefinition as createJspDefinition } from './jsp';
 import { createDefinition as createJsxDefinition } from './jsx';
@@ -177,6 +178,7 @@ export const getIconDefinitions = (
   ipynb: createIpynbDefinition(iconPath),
   java: createJavaDefinition(iconPath),
   javascript: createJavascriptDefinition(iconPath),
+  jfr: createJfrDefinition(iconPath),
   json: createJsonDefinition(iconPath),
   jsp: createJspDefinition(iconPath),
   jsx: createJsxDefinition(iconPath),
