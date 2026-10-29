@@ -22,6 +22,7 @@ import { createDefinition as createDefaultDefinition } from './default';
 import { createDefinition as createDenoDefinition } from './deno';
 import { createDefinition as createDiagramDefinition } from './diagram';
 import { createDefinition as createDiffDefinition } from './diff';
+import { createDefinition as createDjangoDefinition } from './django';
 import { createDefinition as createDocDefinition } from './doc';
 import { createDefinition as createDockerDefinition } from './docker';
 import { createDefinition as createElixirDefinition } from './elixir';
@@ -149,6 +150,7 @@ export const getIconDefinitions = (
   deno: createDenoDefinition(iconPath),
   diagram: createDiagramDefinition(iconPath),
   diff: createDiffDefinition(iconPath),
+  django: createDjangoDefinition(iconPath),
   doc: createDocDefinition(iconPath),
   docker: createDockerDefinition(iconPath),
   elixir: createElixirDefinition(iconPath),

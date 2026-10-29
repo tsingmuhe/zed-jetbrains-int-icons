@@ -105,6 +105,7 @@
         "deno.lock": "deno",
         "uml": "diagram",
         "diff": "diff",
+        "djt": "django",
         "doc": "doc",
         "docx": "doc",
         "docm": "doc",
@@ -475,6 +476,9 @@
         },
         "diff": {
           "path": "./icons/diff_dark.svg"
+        },
+        "django": {
+          "path": "./icons/django_dark.svg"
         },
         "doc": {
           "path": "./icons/doc_dark.svg"
