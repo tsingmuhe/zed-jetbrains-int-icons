@@ -28,6 +28,7 @@
         "Podfile": "ruby"
       },
       "file_suffixes": {
+        "as": "actionscript",
         "applescript": "apple",
         "ipa": "apple",
         "zip": "archive",
@@ -398,6 +399,9 @@
         "zig": "zig"
       },
       "file_icons": {
+        "actionscript": {
+          "path": "./icons/actionscript.svg"
+        },
         "apple": {
           "path": "./icons/apple.svg"
         },
